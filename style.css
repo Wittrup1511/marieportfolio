@@ -1,0 +1,298 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none; 
+	outline: none;
+	vertical-align: baseline; 
+	font-size: 100%;
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	font-weight: normal; 
+	background-image:url(images/background.jpeg);
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.background {
+	width: 100%;
+	height: 100%;
+	background-image:url(imagg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav {
+	width: 350px;
+	height: auto;
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transistion: 300ms;
+}
+	
+
+.nav a:hover {
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a {
+	width: 95%;
+}
+.b {
+	width: 85%;
+}
+
+.c{
+	width: 70%;
+}
+.d {
+	width: 90%;
+}
+
+.hero {
+	position: absolute;
+	width: 1200px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+h1 {
+	color:black;
+	text-transform:uppercase;
+	font-size: 70px;
+	text-align: center; 
+	margin-top: -450px;
+}
+.button {
+	margin-top:30px;
+	margin-left:440px;
+}
+
+.btn {
+	border: 5px solid black;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+
+.btn-one {
+	background-color:darkorange;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two {
+	font-family: "Roboto", sans-serif;
+}
+
+.btw-two:hover {
+	background-color:darkorange;
+	transition: all 0.5s ease-in;
+}
+
+h2 {
+	color: black;
+	font-size: 200px;
+	position: center; 
+}
+
+p {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center; 
+	margin-bottom: 50px;
+	position: inherit;
+	margin-top: -195px;
+}
+
+.p2{
+	margin-top: -50px;
+}
+
+header {
+	margin: 100px 0 200px 1200px;
+	margin-left: 700px; 
+}
+
+/* my work section */ 
+
+.billede {
+	width: 50%;
+	margin-left: 700px;
+	margin-top: 300; 
+}
+
+
+/* Billed-overlay start */
+.hover img:hover {
+    opacity: 0.5;
+	transform: scale(1);
+    transition: all 0.3s ease 0s;
+	position: right;
+	
+}
+/* Billed-overlay slut */
+
+/* ABOUT ME SECTION */
+.about-me {
+	width: 100%;
+	text-align: center; 
+}
+
+.about-me h2 {
+	color: darkorange;
+	text-align: center; 
+	text-transform: uppercase; 
+	font-family: "Roboto", sans-serif;
+	font-size: 50px; 
+	margin-left: 890px;
+}
+
+.about-me .col-left {
+	width: 200px;
+	float: right; 
+	position: right; 
+	margin-right: 100px; 
+}
+
+.about-me .col-left img {
+	max-width: 200%;
+	position: center; 
+	float: left; 
+	padding: 200px;
+	margin-top: -500px;
+	margin-left: 500px;
+}
+
+.col-right {
+	width: 500px;
+	height: 50%;
+	margin: 50%;
+	margin-bottom: 200px;
+
+	
+}
+
+
+
+/* contact section */ 
+
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative; 
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+	margin-top: -500px;
+}
+
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+	font-family: "Roboto", sans-serif;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:darkorange;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:purple;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+
+
+
